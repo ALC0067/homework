@@ -28,7 +28,7 @@ end
 
 # Creating instances for your games
 game1 = Game.new("Cyberpunk 2077", "Action RPG", 1)
-game2 = Game.new("Peak", "Adventure", 4)  # multiplayer game
+game2 = Game.new("Tekken", "Fighting", 2)  # multiplayer game
 
 # Display information
 p game1.info          # "Cyberpunk 2077 is a Action RPG game for 1 player(s)."
