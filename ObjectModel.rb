@@ -5,8 +5,8 @@
 # Use attr_accessor for attributes (or attr_reader/attr_writer if the users shouldn't have access to everything).
 # Add at least one custom method that performs an action (ex. info_about_user from the Person class).
 
-# Game Class
-class Game
+# Class SteamLibrary
+class SteamLibrary
   attr_accessor :title, :genre, :players
 
   def initialize(title, genre, players)
