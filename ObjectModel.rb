@@ -27,8 +27,8 @@ class SteamLibrary
 end
 
 # Creating instances for your games
-game1 = Game.new("Cyberpunk 2077", "Action RPG", 1)
-game2 = Game.new("Tekken", "Fighting", 2)  # multiplayer game
+game1 = SteamLibrary.new("Cyberpunk 2077", "Action RPG", 1)
+game2 = SteamLibrary.new("Tekken", "Fighting", 2)  # multiplayer game
 
 # Display information
 p game1.info          # "Cyberpunk 2077 is a Action RPG game for 1 player(s)."
